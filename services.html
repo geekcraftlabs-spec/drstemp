@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive medical services at Dr. T.J Makasi Practice in Pretoria: preventive check-ups, vaccinations, chronic disease management, acute care, women's & men's health, minor procedures.">
+    <title>Our Services | Dr. T.J Makasi Practice | Pretoria</title>
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://via.placeholder.com/32x32/0A66C2/ffffff?text=TJ" type="image/x-icon">
+
+    <!-- Tailwind compiled output -->
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="text-gray-800 overflow-x-hidden bg-gray-50">
+
+    <!-- NAVBAR (consistent with other pages) -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[var(--primary)] rounded-2xl flex items-center justify-center text-white text-3xl font-bold">TJ</div>
+                <div>
+                    <span class="heading-font text-2xl font-bold text-[var(--primary)]">Dr. T.J Makasi Practice</span>
+                    <p class="text-[10px] text-gray-500 -mt-1">GENERAL PRACTICE • PRETORIA</p>
+                </div>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link hover:text-[var(--primary)]">Home</a>
+                <a href="about.html" class="nav-link hover:text-[var(--primary)]">About Us</a>
+                <a href="services.html" class="nav-link active text-[var(--primary)]">Services</a>
+                <a href="team.html" class="nav-link hover:text-[var(--primary)]">Our Team</a>
+                <a href="blog.html" class="nav-link hover:text-[var(--primary)]">Health Insights</a>
+                <a href="contact.html" class="nav-link hover:text-[var(--primary)]">Contact</a>
+            </div>
+
+            <a href="contact.html" class="hidden md:block btn-primary px-8 py-3.5 rounded-2xl text-sm font-semibold transition-all shadow-lg">
+                Book Appointment
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden text-3xl text-gray-700">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t py-6 px-6">
+            <div class="flex flex-col gap-6 text-base font-medium">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="team.html">Our Team</a>
+                <a href="blog.html">Health Insights</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn-primary text-center py-4 rounded-2xl text-white font-semibold">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="bg-gradient-to-br from-blue-50 to-white py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <span class="text-[var(--secondary)] font-semibold tracking-wider uppercase">Comprehensive Family Care</span>
+            <h1 class="heading-font text-4xl md:text-5xl font-bold mt-4 text-[var(--dark)]">
+                Our Medical Services
+            </h1>
+            <p class="text-xl text-gray-600 mt-4 max-w-3xl mx-auto">
+                Evidence-based, patient-centered care for every stage of life — from prevention to treatment and ongoing support.
+            </p>
+        </div>
+    </section>
+
+    <!-- SERVICES GRID -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 space-y-24">
+
+            <!-- 1. Preventive Check-ups & Screenings -->
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="text-6xl mb-6 text-[var(--primary)]">🩺</div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Preventive Check-ups & Screenings
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Early detection saves lives. Our comprehensive annual exams help identify health risks before they become serious problems.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Full physical examination & vital signs</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Blood pressure, cholesterol & diabetes screening</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Age-appropriate cancer screenings (PSA, breast, cervical)</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Personalized lifestyle & nutrition counselling</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Book Your Annual Check-up <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image or keep placeholder -->
+                    <!-- Pinterest search: "doctor performing preventive health checkup family consultation" -->
+                    <img src="https://picsum.photos/id/1015/800/600" alt="Preventive Check-ups & Screenings" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- 2. Vaccinations & Immunizations -->
+            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
+                <div>
+                    <div class="text-6xl mb-6 text-[var(--secondary)]"><i class="fa-solid fa-syringe"></i></div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Vaccinations & Immunizations
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Protecting you and your family with up-to-date immunisations in a calm, professional environment.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Routine childhood & adult vaccines</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Annual flu shots & pneumonia vaccines</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Travel vaccinations & yellow fever certification</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Pre-travel health advice & risk assessment</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Get Vaccinated Today <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image -->
+                    <!-- Pinterest search: "vaccination clinic modern medical family illustration" -->
+                    <img src="https://picsum.photos/id/201/800/600" alt="Vaccinations & Immunizations" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- 3. Chronic Disease Management -->
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="text-6xl mb-6 text-red-500"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Chronic Disease Management
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Long-term support to help you live well with ongoing conditions through regular monitoring and personalised plans.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Diabetes (type 1 & 2) monitoring & HbA1c checks</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Hypertension & heart health management</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Asthma & COPD control with inhaler technique training</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Arthritis, thyroid & other chronic condition support</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Start Chronic Care Plan <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image -->
+                    <!-- Pinterest search: "doctor patient chronic disease management consultation" -->
+                    <img src="https://picsum.photos/id/301/800/600" alt="Chronic Disease Management" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- 4. Acute Illness & Minor Injuries -->
+            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
+                <div>
+                    <div class="text-6xl mb-6 text-amber-600"><i class="fa-solid fa-user-injured"></i></div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Acute Illness & Minor Injuries
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Fast, same-day care for sudden health problems so you can feel better quickly.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Colds, flu, sore throat & infections</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Urinary tract infections & skin rashes</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Sprains, cuts, minor wounds & burns</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Headaches, dizziness & acute pain relief</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Get Same-Day Care <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image -->
+                    <!-- Pinterest search: "doctor treating acute illness patient clinic" -->
+                    <img src="https://picsum.photos/id/401/800/600" alt="Acute Illness & Minor Injuries" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- 5. Women's & Men's Health -->
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="text-6xl mb-6 text-purple-600"><i class="fa-solid fa-venus-mars"></i></div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Women's & Men's Health
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Sensitive, confidential care tailored to gender-specific health needs at every life stage.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Women's: Pap smears, contraception, menopause support</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Men's: Prostate checks, erectile dysfunction, testosterone screening</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Family planning & fertility discussions</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Sexual health screening & counselling</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Schedule Gender-Specific Care <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image -->
+                    <!-- Pinterest search: "womens health consultation doctor patient illustration" -->
+                    <img src="https://picsum.photos/id/501/800/600" alt="Women's & Men's Health" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- 6. Minor Procedures & Tests -->
+            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
+                <div>
+                    <div class="text-6xl mb-6 text-teal-600"><i class="fa-solid fa-scissors"></i></div>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                        Minor Procedures & In-Room Tests
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Quick, safe procedures and diagnostics performed right in our practice — no hospital needed.
+                    </p>
+                    <ul class="space-y-3 text-gray-700 mb-8">
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> ECG, spirometry & basic blood tests</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Wound suturing, dressing & minor injury care</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Joint injections & trigger point therapy</li>
+                        <li class="flex items-start gap-3"><i class="fa-solid fa-check text-[var(--secondary)] mt-1.5"></i> Ear syringing, mole removal & skin lesion treatment</li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Book a Procedure <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <!-- CHANGE: add your image -->
+                    <!-- Pinterest search: "minor surgical procedure doctor clinic modern" -->
+                    <img src="https://picsum.photos/id/601/800/600" alt="Minor Procedures & Tests" class="rounded-3xl shadow-2xl w-full object-cover">
+                </div>
+            </div>
+
+            <!-- FINAL CTA -->
+            <div class="text-center mt-16 pt-12 border-t border-gray-200">
+                <h3 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
+                    Ready to Take Care of Your Health?
+                </h3>
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    From routine prevention to specialised care — we're here for you and your family.
+                </p>
+                <a href="contact.html" class="inline-flex items-center gap-3 bg-(--primary) text-white px-10 py-5 rounded-3xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                    Book Your Appointment Now <i class="fa-solid fa-calendar-check"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0F172A] text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-lg mb-4">© 2026 Dr. T.J Makasi Practice • Pretoria • Built by <strong>Geekcraft Labs</strong></p>
+            <p class="text-sm opacity-70">Compassionate care starts here.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            const icon = btn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+    </script>
+</body>
+</html>

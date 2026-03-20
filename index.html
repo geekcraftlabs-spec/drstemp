@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Takunda John Makasi - Trusted General Practitioner in Pretoria. Same-day appointments, family medicine, chronic care & preventive health. Accepting new patients.">
+    <title>Dr. Takunda John Makasi | General Practitioner | Dr. T.J Makasi Practice Pretoria</title>
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- CHANGE: Replace with your own favicon later -->
+    <link rel="icon" href="https://via.placeholder.com/32x32/0A66C2/ffffff?text=TJ" type="image/x-icon">
+
+    <!-- Tailwind compiled output -->
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="text-gray-800 overflow-x-hidden bg-gray-50">
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <!-- LOGO -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[var(--primary)] rounded-2xl flex items-center justify-center text-white text-3xl font-bold">TJ</div>
+                <div>
+                    <span class="heading-font text-2xl font-bold text-[var(--primary)]">Dr. T.J Makasi Practice</span>
+                    <p class="text-[10px] text-gray-500 -mt-1">GENERAL PRACTICE • PRETORIA</p>
+                </div>
+            </div>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link active text-[var(--primary)]">Home</a>
+                <a href="about.html" class="nav-link hover:text-[var(--primary)]">About Us</a>
+                <a href="services.html" class="nav-link hover:text-[var(--primary)]">Services</a>
+                <a href="team.html" class="nav-link hover:text-[var(--primary)]">Our Team</a>
+                <a href="blog.html" class="nav-link hover:text-[var(--primary)]">Health Insights</a>
+                <a href="contact.html" class="nav-link hover:text-[var(--primary)]">Contact</a>
+            </div>
+
+            <!-- BOOK BUTTON -->
+            <a href="contact.html" 
+               class="hidden md:block btn-primary px-8 py-3.5 rounded-2xl text-sm font-semibold transition-all shadow-lg">
+                Book Appointment
+            </a>
+
+            <!-- MOBILE HAMBURGER -->
+            <button id="mobile-menu-btn" class="md:hidden text-3xl text-gray-700">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t py-6 px-6">
+            <div class="flex flex-col gap-6 text-base font-medium">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="team.html">Our Team</a>
+                <a href="blog.html">Health Insights</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn-primary text-center py-4 rounded-2xl text-white font-semibold">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero-bg h-[90vh] md:h-screen flex items-center text-white relative">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="uppercase tracking-widest text-sm mb-4 opacity-90">HPCSA Registered • Accepting New Patients</p>
+            <h1 class="heading-font text-5xl md:text-7xl font-bold leading-tight mb-6">
+                Dr. Takunda John<br> Makasi
+            </h1>
+            <p class="text-xl md:text-3xl mb-10 max-w-3xl mx-auto">Compassionate family medicine with same-day appointments and personalized care for all ages in Pretoria.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
+                <a href="contact.html" 
+                   class="btn-white px-10 py-5 rounded-3xl text-lg font-semibold shadow-xl hover:shadow-2xl transition-all flex items-center gap-3">
+                    <i class="fa-solid fa-calendar-check"></i> Book Appointment
+                </a>
+                <a href="about.html" 
+                   class="btn-outline px-10 py-5 rounded-3xl text-lg font-medium transition-all">
+                    Meet the Doctor
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES TEASER ==================== -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-[var(--secondary)] font-semibold tracking-wider uppercase">Comprehensive Care</span>
+                <h2 class="heading-font text-4xl md:text-5xl font-bold mt-4 text-[var(--dark)]">Our Core Services</h2>
+                <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">From preventive health to managing ongoing conditions — we provide trusted, evidence-based care for your whole family.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 lg:gap-10">
+                <!-- Service 1 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6">🩺</div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Preventive Check-ups & Screenings</h3>
+                    <p class="text-gray-700 mb-4">Annual physicals, blood pressure, cholesterol, diabetes screening, cancer checks, and lifestyle advice to keep you healthy.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6"><i class="fa-solid fa-syringe text-[var(--secondary)]"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Vaccinations & Immunizations</h3>
+                    <p class="text-gray-700 mb-4">Routine childhood vaccines, flu shots, travel vaccines, boosters, and yellow fever certification for all ages.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6"><i class="fa-solid fa-heart-pulse text-red-500"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Chronic Disease Management</h3>
+                    <p class="text-gray-700 mb-4">Ongoing care for diabetes, hypertension, asthma, arthritis, thyroid issues, and more with monitoring and medication adjustments.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6"><i class="fa-solid fa-user-injured text-amber-600"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Acute Illness & Minor Injuries</h3>
+                    <p class="text-gray-700 mb-4">Same-day care for colds, flu, infections, sprains, cuts, rashes, urinary issues, and other sudden health concerns.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6"><i class="fa-solid fa-venus-mars text-purple-600"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Women's & Men's Health</h3>
+                    <p class="text-gray-700 mb-4">Pap smears, contraception, menopause support, prostate checks, erectile dysfunction, and family planning services.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-gray-50 rounded-3xl p-8 shadow-lg border border-gray-100">
+                    <div class="text-5xl mb-6"><i class="fa-solid fa-scissors text-teal-600"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4 text-[var(--dark)]">Minor Procedures & Tests</h3>
+                    <p class="text-gray-700 mb-4">ECG, spirometry, wound suturing, joint injections, mole removal, ear syringing, and basic in-room testing.</p>
+                    <a href="services.html" class="text-[var(--primary)] font-medium hover:underline">Learn More →</a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="services.html" 
+                   class="inline-flex items-center gap-3 bg-[var(--primary)] text-white px-10 py-5 rounded-3xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                    View All Services <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0F172A] text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-lg mb-4">© 2026 Dr. T.J Makasi Practice • Built with care by <strong>Geekcraft Labs</strong></p>
+            <p class="text-sm opacity-70">Professional websites for medical practices in Pretoria & beyond</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            const icon = btn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet Dr. Takunda John Makasi - Experienced General Practitioner in Pretoria with 12+ years of compassionate family care.">
+    <title>Dr. Takunda John Makasi | About Us | Dr. T.J Makasi Practice Pretoria</title>
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- CHANGE: Favicon -->
+    <link rel="icon" href="https://via.placeholder.com/32x32/0A66C2/ffffff?text=TJ" type="image/x-icon">
+
+    <!-- Tailwind compiled output -->
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="text-gray-800 overflow-x-hidden bg-gray-50">
+
+    <!-- ==================== NAVBAR (identical to home, with active on About) ==================== -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <!-- LOGO -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[var(--primary)] rounded-2xl flex items-center justify-center text-white text-3xl font-bold">TJ</div>
+                <div>
+                    <span class="heading-font text-2xl font-bold text-[var(--primary)]">Dr. T.J Makasi Practice</span>
+                    <p class="text-[10px] text-gray-500 -mt-1">GENERAL PRACTICE • PRETORIA</p>
+                </div>
+            </div>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link hover:text-[var(--primary)]">Home</a>
+                <a href="about.html" class="nav-link active text-[var(--primary)]">About Us</a>
+                <a href="services.html" class="nav-link hover:text-[var(--primary)]">Services</a>
+                <a href="team.html" class="nav-link hover:text-[var(--primary)]">Our Team</a>
+                <a href="blog.html" class="nav-link hover:text-[var(--primary)]">Health Insights</a>
+                <a href="contact.html" class="nav-link hover:text-[var(--primary)]">Contact</a>
+            </div>
+
+            <!-- BOOK BUTTON -->
+            <a href="contact.html" 
+               class="hidden md:block btn-primary px-8 py-3.5 rounded-2xl text-sm font-semibold transition-all shadow-lg">
+                Book Appointment
+            </a>
+
+            <!-- MOBILE HAMBURGER -->
+            <button id="mobile-menu-btn" class="md:hidden text-3xl text-gray-700">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t py-6 px-6">
+            <div class="flex flex-col gap-6 text-base font-medium">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="team.html">Our Team</a>
+                <a href="blog.html">Health Insights</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn-primary text-center py-4 rounded-2xl text-white font-semibold">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE HERO / HEADER ==================== -->
+    <section class="bg-gradient-to-br from-blue-50 to-white py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <span class="text-[var(--secondary)] font-semibold tracking-wider uppercase">Meet Your Doctor</span>
+            <h1 class="heading-font text-4xl md:text-5xl font-bold mt-4 text-[var(--dark)]">
+                Dr. Takunda John Makasi
+            </h1>
+            <p class="text-xl text-gray-600 mt-4 max-w-3xl mx-auto">
+                Compassionate General Practitioner with over 12 years of dedicated service to families in Pretoria.
+            </p>
+        </div>
+    </section>
+
+    <!-- ==================== DOCTOR BIO SECTION ==================== -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <!-- Doctor Photo -->
+            <div class="relative">
+                <!-- CHANGE: Pinterest search: "professional black male doctor portrait smiling clinic background South African" or "confident African doctor headshot white coat stethoscope" -->
+                <img src="assets\images\doctor image.jpg" 
+                     alt="Dr. Takunda John Makasi - General Practitioner"
+                     class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="absolute -bottom-6 -right-6 bg-[var(--secondary)] text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
+                    12+ Years Experience
+                </div>
+            </div>
+            
+            <!-- Bio Text -->
+            <div>
+                <h2 class="heading-font text-4xl font-bold text-[var(--dark)] mb-6">
+                    Caring for Families with Expertise & Heart
+                </h2>
+                
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Dr. Takunda John Makasi is a dedicated General Practitioner committed to providing high-quality, patient-centered care to individuals and families across all ages. With more than 12 years of clinical experience in Pretoria, he focuses on <strong>preventive family medicine</strong> and <strong>chronic disease management</strong>, helping patients stay healthy and manage long-term conditions effectively.
+                </p>
+                
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Dr. Makasi believes in building long-term relationships with his patients, listening attentively, and creating personalized care plans that consider physical, emotional, and social well-being. He is known for his warm approach, clear communication, and evidence-based practice.
+                </p>
+                
+                <!-- Qualifications -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="border-l-4 border-[var(--primary)] pl-6">
+                        <div class="font-semibold text-xl">MBChB</div>
+                        <div class="text-gray-600">University of Zimbabwe / South African accredited equivalent</div>
+                    </div>
+                    <div class="border-l-4 border-[var(--primary)] pl-6">
+                        <div class="font-semibold text-xl">HPCSA Registered</div>
+                        <div class="text-gray-600">MP [Your Reg Number]</div>
+                    </div>
+                    <div class="border-l-4 border-[var(--primary)] pl-6">
+                        <div class="font-semibold text-xl">FCFP(SA)</div>
+                        <div class="text-gray-600">Fellow of the College of Family Physicians of South Africa</div>
+                    </div>
+                </div>
+                
+                <a href="contact.html" 
+                   class="inline-flex items-center gap-3 bg-(--primary) text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                    Book an Appointment Today <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PHILOSOPHY / VALUES SECTION ==================== -->
+    <section class="py-16 md:py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="heading-font text-4xl font-bold text-[var(--dark)]">
+                    Our Philosophy of Care
+                </h2>
+                <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
+                    At Dr. T.J Makasi Practice, we believe healthcare should be accessible, compassionate, and proactive.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-lg text-center">
+                    <!-- CHANGE: Pinterest search: "family doctor with diverse patients illustration preventive care" -->
+                    <div class="text-6xl mb-6 text-[var(--secondary)]"><i class="fa-solid fa-heart"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4">Patient-Centered</h3>
+                    <p class="text-gray-700">Your needs, values, and preferences guide every decision we make together.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow-lg text-center">
+                    <!-- CHANGE: Pinterest search: "preventive health checkup family doctor South Africa" -->
+                    <div class="text-6xl mb-6 text-[var(--primary)]"><i class="fa-solid fa-shield-virus"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4">Preventive Focus</h3>
+                    <p class="text-gray-700">We emphasize early detection, healthy lifestyles, and vaccinations to keep illness at bay.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-3xl shadow-lg text-center">
+                    <!-- CHANGE: Pinterest search: "chronic disease management doctor patient consultation" -->
+                    <div class="text-6xl mb-6 text-[var(--secondary)]"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3 class="text-2xl font-semibold mb-4">Chronic Care Excellence</h3>
+                    <p class="text-gray-700">Ongoing support for diabetes, hypertension, asthma, and other long-term conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA SECTION ==================== -->
+    <section class="py-16 bg-(--primary) text-white text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="heading-font text-4xl font-bold mb-6">
+                Ready to Experience Personalized Care?
+            </h2>
+            <p class="text-xl mb-8 opacity-90">
+                Join the many families in Pretoria who trust Dr. Takunda John Makasi with their health.
+            </p>
+            <a href="contact.html" 
+               class="inline-flex items-center gap-3 bg-white text-(--primary) px-10 py-5 rounded-3xl text-lg font-semibold hover:bg-gray-100 transition-all shadow-xl">
+                <i class="fa-solid fa-calendar-check"></i> Book Your Visit Now
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-[#0F172A] text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-lg mb-4">© 2026 Dr. T.J Makasi Practice • Pretoria • Built by <strong>Geekcraft Labs</strong></p>
+            <p class="text-sm opacity-70">Compassionate care starts here.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle (same as home)
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            const icon = btn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+    </script>
+</body>
+</html>
