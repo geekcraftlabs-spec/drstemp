@@ -1,0 +1,83 @@
+/* ==========================================
+   TAILWIND BASE LAYERS
+   ========================================== */
+@import "tailwindcss";
+
+/* ==========================================
+   GOOGLE FONTS
+   ========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+/* ==========================================
+   CUSTOM ROOT VARIABLES
+   ========================================== */
+:root {
+  --primary:   #0A66C2;
+  --secondary: #10B981;
+  --dark:      #1F2937;
+}
+
+/* ==========================================
+   GLOBAL / BASE STYLES
+   ========================================== */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  @apply text-gray-800 overflow-x-hidden bg-gray-50;
+}
+
+.heading-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ==========================================
+   HERO SECTION
+   ========================================== */
+.hero-bg {
+  background-image: linear-gradient(rgba(10, 102, 194, 0.78), rgba(10, 102, 194, 0.78)),
+                    url('https://picsum.photos/id/1015/2000/1200');
+  background-size: cover;
+  background-position: center;
+}
+
+/* ==========================================
+   NAVIGATION FONT SIZE ADJUSTMENTS
+   ========================================== */
+/* Desktop nav links: 16px (was text-sm = 14px) */
+.nav-link {
+  @apply text-base;
+}
+
+/* Mobile menu items: 18px for better readability on phones */
+#mobile-menu a {
+  @apply text-lg;
+}
+
+/* Mobile "Book Appointment" button: keep at 16px to prevent crowding */
+#mobile-menu .btn-primary {
+  @apply text-base;
+}
+
+/* ==========================================
+   OTHER CUSTOM STYLES (add your remaining rules here as needed)
+   ========================================== */
+/* Example: service cards hover */
+.service-card {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.service-card:hover {
+  @apply -translate-y-2.5 shadow-xl;
+}
+
+/* Add more from your original styles here, e.g. btn-primary, btn-outline, etc. */
+.btn-primary {
+  @apply bg-(--primary) text-white hover:bg-blue-700 transition-all shadow-lg;
+}
+
+.btn-outline {
+  @apply border-2 border-white text-white hover:bg-white/10 transition-all;
+}
+
+.btn-white {
+  @apply bg-white text-(--primary) hover:bg-gray-100 transition-all shadow-xl;
+}
