@@ -17,7 +17,7 @@
 </head>
 <body class="text-gray-800 overflow-x-hidden bg-gray-50">
 
-    <!-- NAVBAR (consistent with other pages) -->
+    <!-- NAVBAR -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
             <div class="flex items-center gap-3">
@@ -96,16 +96,19 @@
                         Book Your Annual Check-up <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image or keep placeholder -->
-                    <!-- Pinterest search: "doctor performing preventive health checkup family consultation" -->
-                    <img src="https://picsum.photos/id/1015/800/600" alt="Preventive Check-ups & Screenings" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/Check Ups.jpg" 
+                        alt="Preventive Check-ups & Screenings" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
             <!-- 2. Vaccinations & Immunizations -->
-            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
-                <div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
                     <div class="text-6xl mb-6 text-[var(--secondary)]"><i class="fa-solid fa-syringe"></i></div>
                     <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
                         Vaccinations & Immunizations
@@ -123,10 +126,13 @@
                         Get Vaccinated Today <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image -->
-                    <!-- Pinterest search: "vaccination clinic modern medical family illustration" -->
-                    <img src="https://picsum.photos/id/201/800/600" alt="Vaccinations & Immunizations" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="order-1 md:order-2 relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/Vaccination.jpg" 
+                        alt="Vaccinations & Immunizations" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
@@ -150,16 +156,19 @@
                         Start Chronic Care Plan <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image -->
-                    <!-- Pinterest search: "doctor patient chronic disease management consultation" -->
-                    <img src="https://picsum.photos/id/301/800/600" alt="Chronic Disease Management" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/Chronic.jpg" 
+                        alt="Chronic Disease Management" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
             <!-- 4. Acute Illness & Minor Injuries -->
-            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
-                <div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
                     <div class="text-6xl mb-6 text-amber-600"><i class="fa-solid fa-user-injured"></i></div>
                     <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
                         Acute Illness & Minor Injuries
@@ -177,10 +186,13 @@
                         Get Same-Day Care <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image -->
-                    <!-- Pinterest search: "doctor treating acute illness patient clinic" -->
-                    <img src="https://picsum.photos/id/401/800/600" alt="Acute Illness & Minor Injuries" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="order-1 md:order-2 relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/Accute.jpg" 
+                        alt="Acute Illness & Minor Injuries" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
@@ -204,16 +216,19 @@
                         Schedule Gender-Specific Care <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image -->
-                    <!-- Pinterest search: "womens health consultation doctor patient illustration" -->
-                    <img src="https://picsum.photos/id/501/800/600" alt="Women's & Men's Health" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/Gyna.jpg" 
+                        alt="Women's & Men's Health" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
             <!-- 6. Minor Procedures & Tests -->
-            <div class="grid md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
-                <div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
                     <div class="text-6xl mb-6 text-teal-600"><i class="fa-solid fa-scissors"></i></div>
                     <h2 class="heading-font text-3xl md:text-4xl font-bold text-[var(--dark)] mb-6">
                         Minor Procedures & In-Room Tests
@@ -231,10 +246,13 @@
                         Book a Procedure <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <div>
-                    <!-- CHANGE: add your image -->
-                    <!-- Pinterest search: "minor surgical procedure doctor clinic modern" -->
-                    <img src="https://picsum.photos/id/601/800/600" alt="Minor Procedures & Tests" class="rounded-3xl shadow-2xl w-full object-cover">
+                <div class="order-1 md:order-2 relative w-full aspect-[737/736] overflow-hidden rounded-3xl shadow-2xl">
+                    <img 
+                        src="assets/images/surgey.jpg" 
+                        alt="Minor Procedures & Tests" 
+                        class="absolute inset-0 w-full h-full object-cover object-center"
+                        loading="lazy"
+                    >
                 </div>
             </div>
 
