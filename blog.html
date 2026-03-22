@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Health Insights from Dr. T.J Makasi Practice — curated articles on family medicine, diabetes, hypertension, vaccinations, women's health, and current South African health topics.">
+    <title>Health Insights | Dr. T.J Makasi Practice | Pretoria</title>
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://via.placeholder.com/32x32/0A66C2/ffffff?text=TJ" type="image/x-icon">
+
+    <!-- Tailwind compiled output -->
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="text-gray-800 overflow-x-hidden bg-gray-50">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-[var(--primary)] rounded-2xl flex items-center justify-center text-white text-3xl font-bold">TJ</div>
+                <div>
+                    <span class="heading-font text-2xl font-bold text-[var(--primary)]">Dr. T.J Makasi Practice</span>
+                    <p class="text-[10px] text-gray-500 -mt-1">GENERAL PRACTICE • PRETORIA</p>
+                </div>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link hover:text-[var(--primary)]">Home</a>
+                <a href="about.html" class="nav-link hover:text-[var(--primary)]">About Us</a>
+                <a href="services.html" class="nav-link hover:text-[var(--primary)]">Services</a>
+                <a href="team.html" class="nav-link hover:text-[var(--primary)]">Our Team</a>
+                <a href="blog.html" class="nav-link active text-[var(--primary)]">Health Insights</a>
+                <a href="contact.html" class="nav-link hover:text-[var(--primary)]">Contact</a>
+            </div>
+
+            <a href="contact.html" class="hidden md:block btn-primary px-8 py-3.5 rounded-2xl text-sm font-semibold transition-all shadow-lg">
+                Book Appointment
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden text-3xl text-gray-700">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t py-6 px-6">
+            <div class="flex flex-col gap-6 text-base font-medium">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="team.html">Our Team</a>
+                <a href="blog.html" class="active">Health Insights</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn-primary text-center py-4 rounded-2xl text-white font-semibold">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BLOG HERO -->
+    <section class="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20 md:py-28">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Featured Post -->
+                <div>
+                    <span class="inline-block bg-[var(--secondary)] text-white text-sm font-semibold px-4 py-1 rounded-full mb-6">
+                        Featured • Diabetes Awareness
+                    </span>
+                    <h1 class="heading-font text-4xl md:text-5xl lg:text-6xl font-bold text-[var(--dark)] leading-tight mb-6">
+                        Understanding the Diabetes Epidemic in South Africa – 2026 Update
+                    </h1>
+                    <p class="text-xl text-gray-700 mb-8">
+                        With over 4.2 million South Africans living with diabetes, early screening and lifestyle changes remain the most powerful tools we have.
+                    </p>
+                    <div class="flex items-center gap-6 text-gray-600 text-sm">
+                        <span><i class="fa-solid fa-calendar-days mr-2"></i> March 15, 2026</span>
+                        <span><i class="fa-solid fa-clock mr-2"></i> Official NICD resource</span>
+                    </div>
+                    <a href="https://www.nicd.ac.za/diseases-a-z-index/diabetes/" target="_blank" rel="noopener noreferrer" 
+                       class="mt-8 inline-flex items-center gap-3 bg-[var(--primary)] text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg">
+                        Read Full Article <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Featured Image -->
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="assets\images\blogimages\diabetes.jpg" alt="Diabetes in South Africa" class="w-full aspect-[4/3] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALL POSTS GRID -->
+    <section class="py-16 md:py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="heading-font text-4xl md:text-5xl font-bold text-center text-[var(--dark)] mb-16">
+                Latest Health Insights
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Post Card 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/hypertension.jpg" alt="Hypertension Control" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-[var(--primary)] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Heart Health
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> March 10, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> Official SA Heart</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            New Hypertension Guidelines in South Africa – What Changed in 2026?
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            The latest SA Heart guidelines emphasize home monitoring and combination therapy.
+                        </p>
+                        <a href="https://www.saheart.org/guidelines/" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post Card 2 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/flu.jpg" alt="Adult Vaccinations" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-[var(--secondary)] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Immunisation
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> March 5, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> Official NICD</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            Which Vaccinations Should Adults in South Africa Get in 2026?
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            From flu and pneumonia to shingles and HPV — official guidance.
+                        </p>
+                        <a href="https://www.nicd.ac.za/vaccines/" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post Card 3 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/menopause.jpg" alt="Menopause Support" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Women's Health
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> February 28, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> Official WHO</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            Managing Menopause Symptoms – A South African Perspective
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            Hot flashes, mood changes, bone health — practical tips from WHO.
+                        </p>
+                        <a href="https://www.who.int/news-room/fact-sheets/detail/menopause" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post Card 4 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/child injection.jpg" alt="Child Immunisation" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-[var(--secondary)] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Children's Health
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> February 20, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> Official DoH</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            2026 South African Childhood Immunisation Schedule
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            Updated EPI schedule, catch-up vaccinations, and common myths debunked.
+                        </p>
+                        <a href="https://www.health.gov.za/epi/" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post Card 5 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/prostate.jpg" alt="Prostate Health" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Men's Health
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> February 15, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> CANSA</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            Prostate Health After 40 – Screening and Prevention in South Africa
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            PSA testing, symptoms to watch, and lifestyle changes that make a difference.
+                        </p>
+                        <a href="https://www.cansa.org.za/prostate-cancer/" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post Card 6 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02] hover:shadow-xl">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="assets/images/blogimages/flusafe.jpg" alt="Seasonal Flu" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-red-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                            Flu Season
+                        </span>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+                            <span><i class="fa-solid fa-calendar-days"></i> February 10, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> NICD</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 line-clamp-2">
+                            Flu Season 2026 – Who Should Get Vaccinated and Why?
+                        </h3>
+                        <p class="text-gray-600 mb-6 line-clamp-3">
+                            High-risk groups, vaccine effectiveness, and tips to protect your family this winter.
+                        </p>
+                        <a href="https://www.nicd.ac.za/influenza/" target="_blank" rel="noopener noreferrer" 
+                           class="text-[var(--primary)] font-semibold hover:underline">
+                            Read Full Article →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Load More – now wider and more centered -->
+            <div class="text-center mt-16 max-w-5xl mx-auto">
+                <button class="inline-flex items-center gap-3 bg-gray-200 text-gray-800 px-10 py-5 rounded-3xl text-xl font-semibold hover:bg-gray-300 transition-all shadow-md">
+                    Load More Articles <i class="fa-solid fa-arrow-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER – centered on lg+ screens -->
+    <section class="hidden lg:block py-20 bg-white border-t">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-lg mx-auto">
+                <div class="bg-[var(--primary)] text-white p-10 rounded-3xl text-center shadow-xl">
+                    <h3 class="text-3xl font-bold mb-6">Stay Healthy – Join Our Newsletter</h3>
+                    <p class="text-lg mb-8">Get monthly health tips, seasonal alerts, and exclusive practice updates directly to your inbox.</p>
+                    <form class="space-y-5">
+                        <input 
+                            type="email" 
+                            placeholder="Your email address" 
+                            class="w-full px-6 py-5 rounded-2xl text-gray-800 focus:outline-none focus:ring-2 focus:ring-white/30"
+                            required
+                        >
+                        <button 
+                            type="submit" 
+                            class="w-full bg-white text-[var(--primary)] py-5 rounded-2xl text-lg font-bold hover:bg-gray-100 transition-all"
+                        >
+                            Subscribe Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0F172A] text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-lg mb-4">© 2026 Dr. T.J Makasi Practice • Pretoria • Built by <strong>Geekcraft Labs</strong></p>
+            <p class="text-sm opacity-70">Compassionate care starts here.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            const icon = btn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+    </script>
+</body>
+</html>
